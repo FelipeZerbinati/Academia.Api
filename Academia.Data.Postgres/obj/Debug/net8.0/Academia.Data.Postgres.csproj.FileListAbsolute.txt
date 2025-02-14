@@ -17,3 +17,4 @@ C:\Users\fezer\OneDrive\Ambiente de Trabalho\Linguagem C\Academia.Api\Academia.D
 C:\Users\fezer\OneDrive\Ambiente de Trabalho\Linguagem C\Academia.Api\Academia.Data.Postgres\obj\Debug\net8.0\Academia.Data.Postgres.pdb
 C:\Users\fezer\OneDrive\Ambiente de Trabalho\Linguagem C\Academia.Api\Academia.Data.Postgres\obj\Debug\net8.0\Academia.Data.Postgres.genruntimeconfig.cache
 C:\Users\fezer\OneDrive\Ambiente de Trabalho\Linguagem C\Academia.Api\Academia.Data.Postgres\obj\Debug\net8.0\ref\Academia.Data.Postgres.dll
+C:\Users\fezer\OneDrive\Ambiente de Trabalho\Linguagem C\Academia.Api\Academia.Data.Postgres\obj\Debug\net8.0\Academia.Data.Postgres.sourcelink.json

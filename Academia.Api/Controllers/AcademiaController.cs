@@ -9,6 +9,10 @@ namespace Academia.Api.Controllers;
 public class AcademiaController : ControllerBase
 {
     private readonly IAcademiaService _academiaService;
+    public AcademiaController(IAcademiaService academiaService)
+    {
+        _academiaService = academiaService;
+    }
 
     [HttpGet("{id}")]
     public async Task<ActionResult<acdm.Academia>> GetAcademiaById(Guid id)

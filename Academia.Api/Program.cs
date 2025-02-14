@@ -18,10 +18,11 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<PostgresDbContext>(options =>
-    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+    options.UseNpgsql(builder.Configuration.GetConnectionString("DatabasePostGres")));
+builder.Services.AddTransient<IUnitOfWork, UnitOfWork>();
 builder.Services.AddTransient<IRepositoryBase<acdm.Academia>, RepositoryBase<acdm.Academia>>();
 builder.Services.AddTransient<IAcademiaService, AcademiaService>();
-builder.Services.AddTransient<IUnitOfWork, UnitOfWork>();
+
 
 
 var app = builder.Build();

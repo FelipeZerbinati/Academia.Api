@@ -50,7 +50,7 @@ namespace Academia.Data.Postgres.Migrations
 
                     b.HasKey("ID");
 
-                    b.ToTable("Academia");
+                    b.ToTable("Academia", (string)null);
                 });
 
             modelBuilder.Entity("Academia.Domain.Models.Aparelho", b =>
@@ -68,7 +68,7 @@ namespace Academia.Data.Postgres.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Aparelho");
+                    b.ToTable("Aparelho", (string)null);
                 });
 #pragma warning restore 612, 618
         }

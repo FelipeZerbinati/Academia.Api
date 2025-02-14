@@ -9,7 +9,6 @@ public class PostgresDbContext : DbContext
     public DbSet<acdm.Academia> Academia { get; set; }
     public DbSet<Aparelho> Aparelho { get; set; }
     public PostgresDbContext(DbContextOptions<PostgresDbContext> options) : base(options) { }
-    private string connectionString = "Host=localhost;Port=5432;Username=postgres;Password=@Postgre03;Database=Academia";
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
@@ -22,8 +21,7 @@ public class PostgresDbContext : DbContext
                 .AddJsonFile($"appsettings.{environment}.json", optional: true)
                 .Build();
 
-            var connectionString = configuration.GetConnectionString("DefaultConnection");
-
+            var connectionString = configuration.GetConnectionString("DatabasePostGres");
             if (string.IsNullOrEmpty(connectionString))
             {
                 throw new InvalidOperationException("A conexão com o banco de dados não foi configurada corretamente.");

@@ -17,3 +17,4 @@ C:\Users\fezer\OneDrive\Ambiente de Trabalho\Linguagem C\Academia.Api\Academia.D
 C:\Users\fezer\OneDrive\Ambiente de Trabalho\Linguagem C\Academia.Api\Academia.Data\obj\Debug\net8.0\refint\Academia.Data.dll
 C:\Users\fezer\OneDrive\Ambiente de Trabalho\Linguagem C\Academia.Api\Academia.Data\obj\Debug\net8.0\Academia.Data.pdb
 C:\Users\fezer\OneDrive\Ambiente de Trabalho\Linguagem C\Academia.Api\Academia.Data\obj\Debug\net8.0\ref\Academia.Data.dll
+C:\Users\fezer\OneDrive\Ambiente de Trabalho\Linguagem C\Academia.Api\Academia.Data\obj\Debug\net8.0\Academia.Data.sourcelink.json

@@ -6,7 +6,7 @@ namespace Academia.Domain.Models
     {
         public string Nome { get; set; }
         public string AnoFundacao { get; set; }
-        //public AcademiaAparelho AcademiaAparelho { get; set; }
+        public AcademiaAparelho AcademiaAparelho { get; set; }
 
     }
 }

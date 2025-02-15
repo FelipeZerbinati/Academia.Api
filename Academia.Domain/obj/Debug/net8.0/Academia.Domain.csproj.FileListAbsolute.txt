@@ -10,3 +10,4 @@ C:\Users\fezer\OneDrive\Ambiente de Trabalho\Linguagem C\Academia.Api\Academia.D
 C:\Users\fezer\OneDrive\Ambiente de Trabalho\Linguagem C\Academia.Api\Academia.Domain\obj\Debug\net8.0\Academia.Domain.pdb
 C:\Users\fezer\OneDrive\Ambiente de Trabalho\Linguagem C\Academia.Api\Academia.Domain\obj\Debug\net8.0\ref\Academia.Domain.dll
 C:\Users\fezer\OneDrive\Ambiente de Trabalho\Linguagem C\Academia.Api\Academia.Domain\obj\Debug\net8.0\Academia.Domain.csproj.AssemblyReference.cache
+C:\Users\fezer\OneDrive\Ambiente de Trabalho\Linguagem C\Academia.Api\Academia.Domain\obj\Debug\net8.0\Academia.Domain.sourcelink.json

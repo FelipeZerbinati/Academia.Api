@@ -32,13 +32,17 @@ namespace Academia.Data.Postgres.Migrations
                 name: "Aparelho",
                 columns: table => new
                 {
-                    Id = table.Column<string>(type: "text", nullable: false),
-                    Nome = table.Column<string>(type: "text", nullable: false),
-                    Descricao = table.Column<string>(type: "text", nullable: false)
+                    ID = table.Column<Guid>(type: "uuid", nullable: false),
+                    NomeAparelho = table.Column<string>(type: "text", nullable: false),
+                    DescricaoAparelho = table.Column<string>(type: "text", nullable: false),
+                    CreatedDate = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
+                    UpdatedDate = table.Column<DateTime>(type: "timestamp with time zone", nullable: true),
+                    RemovedDate = table.Column<DateTime>(type: "timestamp with time zone", nullable: true),
+                    Removed = table.Column<bool>(type: "boolean", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Aparelho", x => x.Id);
+                    table.PrimaryKey("PK_Aparelho", x => x.ID);
                 });
         }
 

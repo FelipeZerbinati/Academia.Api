@@ -102,7 +102,7 @@ public class AcademiaService (IUnitOfWork unitOfWork) : IAcademiaService
             if (academia == 0)
             {
                 result.Success = false;
-                result.ErrorDescription = "Gym does not exist.";
+                result.ErrorDescription = "Gym does not exists.";
                 return result;
             }
 

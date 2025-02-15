@@ -1,6 +1,4 @@
-﻿using Academia.Data.Repository;
-using Academia.Domain.Interfaces.Repository;
-using Academia.Domain.Interfaces.Service;
+﻿using Academia.Domain.Interfaces.Service;
 using Microsoft.AspNetCore.Mvc;
 using acdm = Academia.Domain.Models;
 

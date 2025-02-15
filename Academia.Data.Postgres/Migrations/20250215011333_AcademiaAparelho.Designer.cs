@@ -3,6 +3,7 @@ using System;
 using Academia.Data.Postgres.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
@@ -11,9 +12,11 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Academia.Data.Postgres.Migrations
 {
     [DbContext(typeof(PostgresDbContext))]
-    partial class PostgresDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250215011333_AcademiaAparelho")]
+    partial class AcademiaAparelho
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -55,7 +58,7 @@ namespace Academia.Data.Postgres.Migrations
 
                     b.HasIndex("AcademiaAparelhoId");
 
-                    b.ToTable("Academia", (string)null);
+                    b.ToTable("Academia");
                 });
 
             modelBuilder.Entity("Academia.Domain.Models.AcademiaAparelho", b =>
@@ -74,7 +77,7 @@ namespace Academia.Data.Postgres.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("AcademiaAparelho", (string)null);
+                    b.ToTable("AcademiaAparelho");
                 });
 
             modelBuilder.Entity("Academia.Domain.Models.Aparelho", b =>
@@ -105,7 +108,7 @@ namespace Academia.Data.Postgres.Migrations
 
                     b.HasKey("ID");
 
-                    b.ToTable("Aparelho", (string)null);
+                    b.ToTable("Aparelho");
                 });
 
             modelBuilder.Entity("Academia.Domain.Models.Academia", b =>

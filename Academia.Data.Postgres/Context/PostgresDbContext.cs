@@ -39,7 +39,9 @@ public class PostgresDbContext : DbContext
 
         modelBuilder.Entity<Aparelho>(entity =>
         {
-
+            entity.HasKey(a => a.ID);  // Define a chave primária
+            entity.Property(a => a.NomeAparelho).IsRequired();
+            entity.Property(a => a.DescricaoAparelho).IsRequired();
         });
     }
 }

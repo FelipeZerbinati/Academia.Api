@@ -1,16 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Academia.Domain.Entity;
+using System.ComponentModel.DataAnnotations;
 
-namespace Academia.Domain.Models
+namespace Academia.Domain.Models;
+
+public class Aparelho : Base
 {
-    public class Aparelho
-    {
-        public string Id { get; set; }
-        public string Nome { get; set; }
-        public string Descricao { get; set; }
-        // AcademiaAparelho AcademiaAparelho { get; set; }
-    }
+    
+    public string NomeAparelho { get; set; }
+    public string DescricaoAparelho { get; set; }
+    AcademiaAparelho AcademiaAparelho { get; set; }
 }

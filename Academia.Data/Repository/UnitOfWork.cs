@@ -2,6 +2,7 @@
 using Academia.Data.Postgres.Repository;
 using Academia.Domain.Interfaces.Postgres;
 using Academia.Domain.Interfaces.Repository;
+using Academia.Domain.Models;
 using System.ComponentModel;
 using acdm = Academia.Domain.Models;
 
@@ -14,6 +15,7 @@ namespace Academia.Data.Repository
         private readonly PostgresDbContext _postgresContext;
         //repositorys
         private IRepositoryBase<acdm.Academia>? _academiaRepository;
+        private IRepositoryBase<Aparelho>? _aparelhoRepository;
 
         public UnitOfWork(
 PostgresDbContext postgresContext)
@@ -26,6 +28,8 @@ PostgresDbContext postgresContext)
 
         //injections
         public IRepositoryBase<acdm.Academia> AcademiaRepository => _academiaRepository ?? (_academiaRepository = new RepositoryBase<acdm.Academia>(_postgresContext));
+
+        public IRepositoryBase<Aparelho> AparelhoRepository => _aparelhoRepository ?? (_aparelhoRepository = new RepositoryBase<Aparelho>(_postgresContext));
 
         public async Task<bool> CommitAsync() 
         {

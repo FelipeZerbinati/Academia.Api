@@ -3,100 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B28A356F-47B0-410A-B481-9537E4D7F698}|Academia.Api\\Academia.Api.csproj|c:\\users\\fezer\\onedrive\\ambiente de trabalho\\linguagem c\\academia.api\\academia.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B28A356F-47B0-410A-B481-9537E4D7F698}|Academia.Api\\Academia.Api.csproj|solutionrelative:academia.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2321BEF-8129-4538-AE00-6E2EC362E991}|Academia.Data.Postgres\\Academia.Data.Postgres.csproj|c:\\users\\fezer\\onedrive\\ambiente de trabalho\\linguagem c\\academia.api\\academia.data.postgres\\context\\postgresdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2321BEF-8129-4538-AE00-6E2EC362E991}|Academia.Data.Postgres\\Academia.Data.Postgres.csproj|solutionrelative:academia.data.postgres\\context\\postgresdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F2C53C1F-22A7-43B1-A8B1-C83A2883E4F3}|Academia.Domain\\Academia.Domain.csproj|c:\\users\\fezer\\onedrive\\ambiente de trabalho\\linguagem c\\academia.api\\academia.domain\\interfaces\\repository\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2C53C1F-22A7-43B1-A8B1-C83A2883E4F3}|Academia.Domain\\Academia.Domain.csproj|solutionrelative:academia.domain\\interfaces\\repository\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2321BEF-8129-4538-AE00-6E2EC362E991}|Academia.Data.Postgres\\Academia.Data.Postgres.csproj|c:\\users\\fezer\\onedrive\\ambiente de trabalho\\linguagem c\\academia.api\\academia.data.postgres\\context\\postgresdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2321BEF-8129-4538-AE00-6E2EC362E991}|Academia.Data.Postgres\\Academia.Data.Postgres.csproj|solutionrelative:academia.data.postgres\\context\\postgresdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B28A356F-47B0-410A-B481-9537E4D7F698}|Academia.Api\\Academia.Api.csproj|c:\\users\\fezer\\onedrive\\ambiente de trabalho\\linguagem c\\academia.api\\academia.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{B28A356F-47B0-410A-B481-9537E4D7F698}|Academia.Api\\Academia.Api.csproj|solutionrelative:academia.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{F2C53C1F-22A7-43B1-A8B1-C83A2883E4F3}|Academia.Domain\\Academia.Domain.csproj|c:\\users\\fezer\\onedrive\\ambiente de trabalho\\linguagem c\\academia.api\\academia.domain\\interfaces\\service\\iaparelhoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2C53C1F-22A7-43B1-A8B1-C83A2883E4F3}|Academia.Domain\\Academia.Domain.csproj|solutionrelative:academia.domain\\interfaces\\service\\iaparelhoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B28A356F-47B0-410A-B481-9537E4D7F698}|Academia.Api\\Academia.Api.csproj|c:\\users\\fezer\\onedrive\\ambiente de trabalho\\linguagem c\\academia.api\\academia.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{B28A356F-47B0-410A-B481-9537E4D7F698}|Academia.Api\\Academia.Api.csproj|solutionrelative:academia.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2C53C1F-22A7-43B1-A8B1-C83A2883E4F3}|Academia.Domain\\Academia.Domain.csproj|c:\\users\\fezer\\onedrive\\ambiente de trabalho\\linguagem c\\academia.api\\academia.domain\\entity\\base.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2C53C1F-22A7-43B1-A8B1-C83A2883E4F3}|Academia.Domain\\Academia.Domain.csproj|solutionrelative:academia.domain\\entity\\base.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2321BEF-8129-4538-AE00-6E2EC362E991}|Academia.Data.Postgres\\Academia.Data.Postgres.csproj|c:\\users\\fezer\\onedrive\\ambiente de trabalho\\linguagem c\\academia.api\\academia.data.postgres\\migrations\\postgresdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2321BEF-8129-4538-AE00-6E2EC362E991}|Academia.Data.Postgres\\Academia.Data.Postgres.csproj|solutionrelative:academia.data.postgres\\migrations\\postgresdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B28A356F-47B0-410A-B481-9537E4D7F698}|Academia.Api\\Academia.Api.csproj|c:\\users\\fezer\\onedrive\\ambiente de trabalho\\linguagem c\\academia.api\\academia.api\\controllers\\academiacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B28A356F-47B0-410A-B481-9537E4D7F698}|Academia.Api\\Academia.Api.csproj|solutionrelative:academia.api\\controllers\\academiacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2C53C1F-22A7-43B1-A8B1-C83A2883E4F3}|Academia.Domain\\Academia.Domain.csproj|c:\\users\\fezer\\onedrive\\ambiente de trabalho\\linguagem c\\academia.api\\academia.domain\\interfaces\\service\\iacademiaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2C53C1F-22A7-43B1-A8B1-C83A2883E4F3}|Academia.Domain\\Academia.Domain.csproj|solutionrelative:academia.domain\\interfaces\\service\\iacademiaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2C53C1F-22A7-43B1-A8B1-C83A2883E4F3}|Academia.Domain\\Academia.Domain.csproj|c:\\users\\fezer\\onedrive\\ambiente de trabalho\\linguagem c\\academia.api\\academia.domain\\interfaces\\repository\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2C53C1F-22A7-43B1-A8B1-C83A2883E4F3}|Academia.Domain\\Academia.Domain.csproj|solutionrelative:academia.domain\\interfaces\\repository\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2321BEF-8129-4538-AE00-6E2EC362E991}|Academia.Data.Postgres\\Academia.Data.Postgres.csproj|c:\\users\\fezer\\onedrive\\ambiente de trabalho\\linguagem c\\academia.api\\academia.data.postgres\\migrations\\20250213210630_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2321BEF-8129-4538-AE00-6E2EC362E991}|Academia.Data.Postgres\\Academia.Data.Postgres.csproj|solutionrelative:academia.data.postgres\\migrations\\20250213210630_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\Academia.Data.Postgres\\Migrations\\20250213211327_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Academia.Data.Postgres\\Migrations\\20250213211327_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFD27153-7684-47C5-BC28-FF5C0C4CF84D}|AcademiaService\\Academia.Application.csproj|c:\\users\\fezer\\onedrive\\ambiente de trabalho\\linguagem c\\academia.api\\academiaservice\\services\\academiaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFD27153-7684-47C5-BC28-FF5C0C4CF84D}|AcademiaService\\Academia.Application.csproj|solutionrelative:academiaservice\\services\\academiaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1ABBCF16-B7AB-430A-A555-B1E666686F1C}|Academia.Data\\Academia.Data.csproj|c:\\users\\fezer\\onedrive\\ambiente de trabalho\\linguagem c\\academia.api\\academia.data\\repository\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1ABBCF16-B7AB-430A-A555-B1E666686F1C}|Academia.Data\\Academia.Data.csproj|solutionrelative:academia.data\\repository\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2321BEF-8129-4538-AE00-6E2EC362E991}|Academia.Data.Postgres\\Academia.Data.Postgres.csproj|c:\\users\\fezer\\onedrive\\ambiente de trabalho\\linguagem c\\academia.api\\academia.data.postgres\\repository\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2321BEF-8129-4538-AE00-6E2EC362E991}|Academia.Data.Postgres\\Academia.Data.Postgres.csproj|solutionrelative:academia.data.postgres\\repository\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2C53C1F-22A7-43B1-A8B1-C83A2883E4F3}|Academia.Domain\\Academia.Domain.csproj|c:\\users\\fezer\\onedrive\\ambiente de trabalho\\linguagem c\\academia.api\\academia.domain\\interfaces\\postgres\\irepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2C53C1F-22A7-43B1-A8B1-C83A2883E4F3}|Academia.Domain\\Academia.Domain.csproj|solutionrelative:academia.domain\\interfaces\\postgres\\irepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFD27153-7684-47C5-BC28-FF5C0C4CF84D}|AcademiaService\\Academia.Application.csproj|c:\\users\\fezer\\onedrive\\ambiente de trabalho\\linguagem c\\academia.api\\academiaservice\\services\\aparelhoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFD27153-7684-47C5-BC28-FF5C0C4CF84D}|AcademiaService\\Academia.Application.csproj|solutionrelative:academiaservice\\services\\aparelhoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2C53C1F-22A7-43B1-A8B1-C83A2883E4F3}|Academia.Domain\\Academia.Domain.csproj|c:\\users\\fezer\\onedrive\\ambiente de trabalho\\linguagem c\\academia.api\\academia.domain\\models\\academia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2C53C1F-22A7-43B1-A8B1-C83A2883E4F3}|Academia.Domain\\Academia.Domain.csproj|solutionrelative:academia.domain\\models\\academia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2321BEF-8129-4538-AE00-6E2EC362E991}|Academia.Data.Postgres\\Academia.Data.Postgres.csproj|c:\\users\\fezer\\onedrive\\ambiente de trabalho\\linguagem c\\academia.api\\academia.data.postgres\\configuration\\academiaconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2321BEF-8129-4538-AE00-6E2EC362E991}|Academia.Data.Postgres\\Academia.Data.Postgres.csproj|solutionrelative:academia.data.postgres\\configuration\\academiaconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2C53C1F-22A7-43B1-A8B1-C83A2883E4F3}|Academia.Domain\\Academia.Domain.csproj|c:\\users\\fezer\\onedrive\\ambiente de trabalho\\linguagem c\\academia.api\\academia.domain\\models\\academiaaparelho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2C53C1F-22A7-43B1-A8B1-C83A2883E4F3}|Academia.Domain\\Academia.Domain.csproj|solutionrelative:academia.domain\\models\\academiaaparelho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B28A356F-47B0-410A-B481-9537E4D7F698}|Academia.Api\\Academia.Api.csproj|c:\\users\\fezer\\onedrive\\ambiente de trabalho\\linguagem c\\academia.api\\academia.api\\controllers\\aparelhoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B28A356F-47B0-410A-B481-9537E4D7F698}|Academia.Api\\Academia.Api.csproj|solutionrelative:academia.api\\controllers\\aparelhoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F2C53C1F-22A7-43B1-A8B1-C83A2883E4F3}|Academia.Domain\\Academia.Domain.csproj|c:\\users\\fezer\\onedrive\\ambiente de trabalho\\linguagem c\\academia.api\\academia.domain\\models\\aparelho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F2C53C1F-22A7-43B1-A8B1-C83A2883E4F3}|Academia.Domain\\Academia.Domain.csproj|solutionrelative:academia.domain\\models\\aparelho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2C53C1F-22A7-43B1-A8B1-C83A2883E4F3}|Academia.Domain\\Academia.Domain.csproj|c:\\users\\fezer\\onedrive\\ambiente de trabalho\\linguagem c\\academia.api\\academia.domain\\interfaces\\service\\iaparelhoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2C53C1F-22A7-43B1-A8B1-C83A2883E4F3}|Academia.Domain\\Academia.Domain.csproj|solutionrelative:academia.domain\\interfaces\\service\\iaparelhoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F2C53C1F-22A7-43B1-A8B1-C83A2883E4F3}|Academia.Domain\\Academia.Domain.csproj|c:\\users\\fezer\\onedrive\\ambiente de trabalho\\linguagem c\\academia.api\\academia.domain\\models\\academia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2C53C1F-22A7-43B1-A8B1-C83A2883E4F3}|Academia.Domain\\Academia.Domain.csproj|solutionrelative:academia.domain\\models\\academia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2C53C1F-22A7-43B1-A8B1-C83A2883E4F3}|Academia.Domain\\Academia.Domain.csproj|c:\\users\\fezer\\onedrive\\ambiente de trabalho\\linguagem c\\academia.api\\academia.domain\\dto\\resultdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2C53C1F-22A7-43B1-A8B1-C83A2883E4F3}|Academia.Domain\\Academia.Domain.csproj|solutionrelative:academia.domain\\dto\\resultdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1ABBCF16-B7AB-430A-A555-B1E666686F1C}|Academia.Data\\Academia.Data.csproj|c:\\users\\fezer\\onedrive\\ambiente de trabalho\\linguagem c\\academia.api\\academia.data\\repository\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ABBCF16-B7AB-430A-A555-B1E666686F1C}|Academia.Data\\Academia.Data.csproj|solutionrelative:academia.data\\repository\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B28A356F-47B0-410A-B481-9537E4D7F698}|Academia.Api\\Academia.Api.csproj|c:\\users\\fezer\\onedrive\\ambiente de trabalho\\linguagem c\\academia.api\\academia.api\\controllers\\aparelhoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B28A356F-47B0-410A-B481-9537E4D7F698}|Academia.Api\\Academia.Api.csproj|solutionrelative:academia.api\\controllers\\aparelhoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F2C53C1F-22A7-43B1-A8B1-C83A2883E4F3}|Academia.Domain\\Academia.Domain.csproj|c:\\users\\fezer\\onedrive\\ambiente de trabalho\\linguagem c\\academia.api\\academia.domain\\interfaces\\service\\iacademiaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2C53C1F-22A7-43B1-A8B1-C83A2883E4F3}|Academia.Domain\\Academia.Domain.csproj|solutionrelative:academia.domain\\interfaces\\service\\iacademiaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2C53C1F-22A7-43B1-A8B1-C83A2883E4F3}|Academia.Domain\\Academia.Domain.csproj|c:\\users\\fezer\\onedrive\\ambiente de trabalho\\linguagem c\\academia.api\\academia.domain\\models\\academiaaparelho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2C53C1F-22A7-43B1-A8B1-C83A2883E4F3}|Academia.Domain\\Academia.Domain.csproj|solutionrelative:academia.domain\\models\\academiaaparelho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFD27153-7684-47C5-BC28-FF5C0C4CF84D}|AcademiaService\\Academia.Application.csproj|c:\\users\\fezer\\onedrive\\ambiente de trabalho\\linguagem c\\academia.api\\academiaservice\\services\\aparelhoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFD27153-7684-47C5-BC28-FF5C0C4CF84D}|AcademiaService\\Academia.Application.csproj|solutionrelative:academiaservice\\services\\aparelhoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2321BEF-8129-4538-AE00-6E2EC362E991}|Academia.Data.Postgres\\Academia.Data.Postgres.csproj|c:\\users\\fezer\\onedrive\\ambiente de trabalho\\linguagem c\\academia.api\\academia.data.postgres\\configuration\\aparelhoconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2321BEF-8129-4538-AE00-6E2EC362E991}|Academia.Data.Postgres\\Academia.Data.Postgres.csproj|solutionrelative:academia.data.postgres\\configuration\\aparelhoconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B28A356F-47B0-410A-B481-9537E4D7F698}|Academia.Api\\Academia.Api.csproj|c:\\users\\fezer\\onedrive\\ambiente de trabalho\\linguagem c\\academia.api\\academia.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B28A356F-47B0-410A-B481-9537E4D7F698}|Academia.Api\\Academia.Api.csproj|solutionrelative:academia.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -106,196 +58,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\Academia.Api\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "Academia.Api\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\Academia.Api\\appsettings.Development.json",
-              "RelativeToolTip": "Academia.Api\\appsettings.Development.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-14T00:19:46.851Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PostgresDbContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\Academia.Data.Postgres\\Migrations\\PostgresDbContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "Academia.Data.Postgres\\Migrations\\PostgresDbContextModelSnapshot.cs",
-              "ToolTip": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\Academia.Data.Postgres\\Migrations\\PostgresDbContextModelSnapshot.cs",
-              "RelativeToolTip": "Academia.Data.Postgres\\Migrations\\PostgresDbContextModelSnapshot.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAgAAAA",
+              "Title": "AparelhosController.cs",
+              "DocumentMoniker": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\Academia.Api\\Controllers\\AparelhosController.cs",
+              "RelativeDocumentMoniker": "Academia.Api\\Controllers\\AparelhosController.cs",
+              "ToolTip": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\Academia.Api\\Controllers\\AparelhosController.cs",
+              "RelativeToolTip": "Academia.Api\\Controllers\\AparelhosController.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAgwC8AAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T21:28:50.553Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AcademiaController.cs",
-              "DocumentMoniker": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\Academia.Api\\Controllers\\AcademiaController.cs",
-              "RelativeDocumentMoniker": "Academia.Api\\Controllers\\AcademiaController.cs",
-              "ToolTip": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\Academia.Api\\Controllers\\AcademiaController.cs",
-              "RelativeToolTip": "Academia.Api\\Controllers\\AcademiaController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T13:47:54.103Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IAcademiaService.cs",
-              "DocumentMoniker": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\Academia.Domain\\Interfaces\\Service\\IAcademiaService.cs",
-              "RelativeDocumentMoniker": "Academia.Domain\\Interfaces\\Service\\IAcademiaService.cs",
-              "ToolTip": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\Academia.Domain\\Interfaces\\Service\\IAcademiaService.cs",
-              "RelativeToolTip": "Academia.Domain\\Interfaces\\Service\\IAcademiaService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T13:56:55.045Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\Academia.Api\\Program.cs",
-              "RelativeDocumentMoniker": "Academia.Api\\Program.cs",
-              "ToolTip": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\Academia.Api\\Program.cs",
-              "RelativeToolTip": "Academia.Api\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T13:51:59.015Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Base.cs",
-              "DocumentMoniker": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\Academia.Domain\\Entity\\Base.cs",
-              "RelativeDocumentMoniker": "Academia.Domain\\Entity\\Base.cs",
-              "ToolTip": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\Academia.Domain\\Entity\\Base.cs",
-              "RelativeToolTip": "Academia.Domain\\Entity\\Base.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T16:56:40.391Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "RepositoryBase.cs",
-              "DocumentMoniker": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\Academia.Data.Postgres\\Repository\\RepositoryBase.cs",
-              "RelativeDocumentMoniker": "Academia.Data.Postgres\\Repository\\RepositoryBase.cs",
-              "ToolTip": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\Academia.Data.Postgres\\Repository\\RepositoryBase.cs",
-              "RelativeToolTip": "Academia.Data.Postgres\\Repository\\RepositoryBase.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T16:59:01.503Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PostgresDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\Academia.Data.Postgres\\Context\\PostgresDbContext.cs",
-              "RelativeDocumentMoniker": "Academia.Data.Postgres\\Context\\PostgresDbContext.cs",
-              "ToolTip": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\Academia.Data.Postgres\\Context\\PostgresDbContext.cs",
-              "RelativeToolTip": "Academia.Data.Postgres\\Context\\PostgresDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T16:07:03.368Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PostgresDbContextFactory.cs",
-              "DocumentMoniker": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\Academia.Data.Postgres\\Context\\PostgresDbContextFactory.cs",
-              "RelativeDocumentMoniker": "Academia.Data.Postgres\\Context\\PostgresDbContextFactory.cs",
-              "ToolTip": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\Academia.Data.Postgres\\Context\\PostgresDbContextFactory.cs",
-              "RelativeToolTip": "Academia.Data.Postgres\\Context\\PostgresDbContextFactory.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T16:08:13.419Z",
+              "WhenOpened": "2025-02-14T20:44:02.576Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\Academia.Api\\appsettings.json",
-              "RelativeDocumentMoniker": "Academia.Api\\appsettings.json",
-              "ToolTip": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\Academia.Api\\appsettings.json",
-              "RelativeToolTip": "Academia.Api\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-13T19:56:21.9Z",
+              "Title": "Aparelho.cs",
+              "DocumentMoniker": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\Academia.Domain\\Models\\Aparelho.cs",
+              "RelativeDocumentMoniker": "Academia.Domain\\Models\\Aparelho.cs",
+              "ToolTip": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\Academia.Domain\\Models\\Aparelho.cs",
+              "RelativeToolTip": "Academia.Domain\\Models\\Aparelho.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T20:40:11.14Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "AcademiaService.cs",
-              "DocumentMoniker": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\AcademiaService\\Services\\AcademiaService.cs",
-              "RelativeDocumentMoniker": "AcademiaService\\Services\\AcademiaService.cs",
-              "ToolTip": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\AcademiaService\\Services\\AcademiaService.cs",
-              "RelativeToolTip": "AcademiaService\\Services\\AcademiaService.cs",
-              "ViewState": "AQIAAFkAAAAAAAAAAAAgwAgAAABIAAAA",
+              "DocumentIndex": 5,
+              "Title": "Academia.cs",
+              "DocumentMoniker": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\Academia.Domain\\Models\\Academia.cs",
+              "RelativeDocumentMoniker": "Academia.Domain\\Models\\Academia.cs",
+              "ToolTip": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\Academia.Domain\\Models\\Academia.cs",
+              "RelativeToolTip": "Academia.Domain\\Models\\Academia.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T14:28:38.466Z"
+              "WhenOpened": "2025-02-14T20:40:06.131Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IUnitOfWork.cs",
-              "DocumentMoniker": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\Academia.Domain\\Interfaces\\Repository\\IUnitOfWork.cs",
-              "RelativeDocumentMoniker": "Academia.Domain\\Interfaces\\Repository\\IUnitOfWork.cs",
-              "ToolTip": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\Academia.Domain\\Interfaces\\Repository\\IUnitOfWork.cs",
-              "RelativeToolTip": "Academia.Domain\\Interfaces\\Repository\\IUnitOfWork.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAhAAAA",
+              "DocumentIndex": 6,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\Academia.Data\\Repository\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "Academia.Data\\Repository\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\Academia.Data\\Repository\\UnitOfWork.cs",
+              "RelativeToolTip": "Academia.Data\\Repository\\UnitOfWork.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwCMAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T16:45:40.725Z"
+              "WhenOpened": "2025-02-14T21:06:42.934Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "20250213210630_initial.cs",
-              "DocumentMoniker": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\Academia.Data.Postgres\\Migrations\\20250213210630_initial.cs",
-              "RelativeDocumentMoniker": "Academia.Data.Postgres\\Migrations\\20250213210630_initial.cs",
-              "ToolTip": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\Academia.Data.Postgres\\Migrations\\20250213210630_initial.cs",
-              "RelativeToolTip": "Academia.Data.Postgres\\Migrations\\20250213210630_initial.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAxwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T21:06:30.195Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "20250213211327_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\Academia.Data.Postgres\\Migrations\\20250213211327_InitialCreate.cs",
-              "RelativeDocumentMoniker": "Academia.Data.Postgres\\Migrations\\20250213211327_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\Academia.Data.Postgres\\Migrations\\20250213211327_InitialCreate.cs",
-              "RelativeToolTip": "Academia.Data.Postgres\\Migrations\\20250213211327_InitialCreate.cs",
+              "DocumentIndex": 7,
+              "Title": "IAcademiaService.cs",
+              "DocumentMoniker": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\Academia.Domain\\Interfaces\\Service\\IAcademiaService.cs",
+              "RelativeDocumentMoniker": "Academia.Domain\\Interfaces\\Service\\IAcademiaService.cs",
+              "ToolTip": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\Academia.Domain\\Interfaces\\Service\\IAcademiaService.cs",
+              "RelativeToolTip": "Academia.Domain\\Interfaces\\Service\\IAcademiaService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T21:13:27.992Z"
+              "WhenOpened": "2025-02-14T20:42:57.351Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "IRepositoryBase.cs",
-              "DocumentMoniker": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\Academia.Domain\\Interfaces\\Postgres\\IRepositoryBase.cs",
-              "RelativeDocumentMoniker": "Academia.Domain\\Interfaces\\Postgres\\IRepositoryBase.cs",
-              "ToolTip": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\Academia.Domain\\Interfaces\\Postgres\\IRepositoryBase.cs",
-              "RelativeToolTip": "Academia.Domain\\Interfaces\\Postgres\\IRepositoryBase.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T16:51:53.629Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 8,
               "Title": "AcademiaAparelho.cs",
               "DocumentMoniker": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\Academia.Domain\\Models\\AcademiaAparelho.cs",
               "RelativeDocumentMoniker": "Academia.Domain\\Models\\AcademiaAparelho.cs",
@@ -303,103 +135,84 @@
               "RelativeToolTip": "Academia.Domain\\Models\\AcademiaAparelho.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T14:09:19.104Z"
+              "WhenOpened": "2025-02-14T20:40:08.548Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "UnitOfWork.cs",
-              "DocumentMoniker": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\Academia.Data\\Repository\\UnitOfWork.cs",
-              "RelativeDocumentMoniker": "Academia.Data\\Repository\\UnitOfWork.cs",
-              "ToolTip": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\Academia.Data\\Repository\\UnitOfWork.cs",
-              "RelativeToolTip": "Academia.Data\\Repository\\UnitOfWork.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAABBAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T17:04:57.348Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "AparelhoService.cs",
-              "DocumentMoniker": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\AcademiaService\\Services\\AparelhoService.cs",
-              "RelativeDocumentMoniker": "AcademiaService\\Services\\AparelhoService.cs",
-              "ToolTip": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\AcademiaService\\Services\\AparelhoService.cs",
-              "RelativeToolTip": "AcademiaService\\Services\\AparelhoService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T14:29:14.179Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Aparelho.cs",
-              "DocumentMoniker": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\Academia.Domain\\Models\\Aparelho.cs",
-              "RelativeDocumentMoniker": "Academia.Domain\\Models\\Aparelho.cs",
-              "ToolTip": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\Academia.Domain\\Models\\Aparelho.cs",
-              "RelativeToolTip": "Academia.Domain\\Models\\Aparelho.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T14:02:45.537Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Academia.cs",
-              "DocumentMoniker": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\Academia.Domain\\Models\\Academia.cs",
-              "RelativeDocumentMoniker": "Academia.Domain\\Models\\Academia.cs",
-              "ToolTip": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\Academia.Domain\\Models\\Academia.cs",
-              "RelativeToolTip": "Academia.Domain\\Models\\Academia.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T14:02:10.574Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "AcademiaConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\Academia.Data.Postgres\\Configuration\\AcademiaConfiguration.cs",
-              "RelativeDocumentMoniker": "Academia.Data.Postgres\\Configuration\\AcademiaConfiguration.cs",
-              "ToolTip": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\Academia.Data.Postgres\\Configuration\\AcademiaConfiguration.cs",
-              "RelativeToolTip": "Academia.Data.Postgres\\Configuration\\AcademiaConfiguration.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABDAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T17:16:02.389Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 2,
               "Title": "IAparelhoService.cs",
               "DocumentMoniker": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\Academia.Domain\\Interfaces\\Service\\IAparelhoService.cs",
               "RelativeDocumentMoniker": "Academia.Domain\\Interfaces\\Service\\IAparelhoService.cs",
               "ToolTip": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\Academia.Domain\\Interfaces\\Service\\IAparelhoService.cs",
               "RelativeToolTip": "Academia.Domain\\Interfaces\\Service\\IAparelhoService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T13:59:03.42Z"
+              "WhenOpened": "2025-02-14T20:43:00.897Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "ResultData.cs",
-              "DocumentMoniker": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\Academia.Domain\\DTO\\ResultData.cs",
-              "RelativeDocumentMoniker": "Academia.Domain\\DTO\\ResultData.cs",
-              "ToolTip": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\Academia.Domain\\DTO\\ResultData.cs",
-              "RelativeToolTip": "Academia.Domain\\DTO\\ResultData.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAFAAAA",
+              "DocumentIndex": 1,
+              "Title": "PostgresDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\Academia.Data.Postgres\\Context\\PostgresDbContext.cs",
+              "RelativeDocumentMoniker": "Academia.Data.Postgres\\Context\\PostgresDbContext.cs",
+              "ToolTip": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\Academia.Data.Postgres\\Context\\PostgresDbContext.cs",
+              "RelativeToolTip": "Academia.Data.Postgres\\Context\\PostgresDbContext.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwCEAAABGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T13:58:09.048Z"
+              "WhenOpened": "2025-02-14T20:54:51.695Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "AparelhosController.cs",
-              "DocumentMoniker": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\Academia.Api\\Controllers\\AparelhosController.cs",
-              "RelativeDocumentMoniker": "Academia.Api\\Controllers\\AparelhosController.cs",
-              "ToolTip": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\Academia.Api\\Controllers\\AparelhosController.cs",
-              "RelativeToolTip": "Academia.Api\\Controllers\\AparelhosController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAABAAAA",
+              "DocumentIndex": 0,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\Academia.Domain\\Interfaces\\Repository\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "Academia.Domain\\Interfaces\\Repository\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\Academia.Domain\\Interfaces\\Repository\\IUnitOfWork.cs",
+              "RelativeToolTip": "Academia.Domain\\Interfaces\\Repository\\IUnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T13:50:02.091Z"
+              "WhenOpened": "2025-02-15T01:37:13.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AparelhoService.cs",
+              "DocumentMoniker": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\AcademiaService\\Services\\AparelhoService.cs",
+              "RelativeDocumentMoniker": "AcademiaService\\Services\\AparelhoService.cs",
+              "ToolTip": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\AcademiaService\\Services\\AparelhoService.cs",
+              "RelativeToolTip": "AcademiaService\\Services\\AparelhoService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAG0AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T20:43:55.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AparelhoConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\Academia.Data.Postgres\\Configuration\\AparelhoConfiguration.cs",
+              "RelativeDocumentMoniker": "Academia.Data.Postgres\\Configuration\\AparelhoConfiguration.cs",
+              "ToolTip": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\Academia.Data.Postgres\\Configuration\\AparelhoConfiguration.cs",
+              "RelativeToolTip": "Academia.Data.Postgres\\Configuration\\AparelhoConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T20:41:46.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\Academia.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Academia.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\Academia.Api\\Program.cs",
+              "RelativeToolTip": "Academia.Api\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T20:34:00.925Z"
             }
           ]
         }

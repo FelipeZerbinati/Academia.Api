@@ -7,8 +7,8 @@ namespace Academia.Domain.Interfaces.Service
     public interface IAparelhoService
     {
         Task<ResultData<bool>> AddAparelho(Aparelho aparelho);
-        Task<ResultData<Aparelho>> GetAparelhoById(int id);
-        Task<ResultData<bool>> UpdateAparelho(int id, Aparelho updatedAparelho);
-        Task<ResultData<bool>> DeleteAparelho(int aparelhoId);
+        Task<ResultData<Aparelho>> GetAparelhoById(Guid id);
+        Task<ResultData<bool>> UpdateAparelho(Guid id, Aparelho updatedAparelho);
+        Task<ResultData<bool>> DeleteAparelho(Guid aparelhoId);
     }
 }

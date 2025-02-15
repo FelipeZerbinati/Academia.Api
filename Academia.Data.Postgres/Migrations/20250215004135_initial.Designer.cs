@@ -12,7 +12,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Academia.Data.Postgres.Migrations
 {
     [DbContext(typeof(PostgresDbContext))]
-    [Migration("20250213210630_initial")]
+    [Migration("20250215004135_initial")]
     partial class initial
     {
         /// <inheritdoc />
@@ -58,18 +58,31 @@ namespace Academia.Data.Postgres.Migrations
 
             modelBuilder.Entity("Academia.Domain.Models.Aparelho", b =>
                 {
-                    b.Property<string>("Id")
-                        .HasColumnType("text");
+                    b.Property<Guid>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
 
-                    b.Property<string>("Descricao")
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("DescricaoAparelho")
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<string>("Nome")
+                    b.Property<string>("NomeAparelho")
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.HasKey("Id");
+                    b.Property<bool>("Removed")
+                        .HasColumnType("boolean");
+
+                    b.Property<DateTime?>("RemovedDate")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<DateTime?>("UpdatedDate")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.HasKey("ID");
 
                     b.ToTable("Aparelho");
                 });

@@ -2,10 +2,10 @@ using Academia.Application.Services;
 using Academia.Data.Postgres.Context;
 using Academia.Data.Postgres.Repository;
 using Academia.Data.Repository;
-using Academia.Domain.Entity;
 using Academia.Domain.Interfaces.Postgres;
 using Academia.Domain.Interfaces.Repository;
 using Academia.Domain.Interfaces.Service;
+using Academia.Domain.Models;
 using Microsoft.EntityFrameworkCore;
 using acdm = Academia.Domain.Models;
 
@@ -22,6 +22,8 @@ builder.Services.AddDbContext<PostgresDbContext>(options =>
 builder.Services.AddTransient<IUnitOfWork, UnitOfWork>();
 builder.Services.AddTransient<IRepositoryBase<acdm.Academia>, RepositoryBase<acdm.Academia>>();
 builder.Services.AddTransient<IAcademiaService, AcademiaService>();
+builder.Services.AddTransient<IRepositoryBase<Aparelho>, RepositoryBase<Aparelho>>();
+builder.Services.AddTransient<IAparelhoService, Aparelhoservice>();
 
 
 

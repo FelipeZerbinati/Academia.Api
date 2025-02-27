@@ -12,8 +12,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Academia.Data.Postgres.Migrations
 {
     [DbContext(typeof(PostgresDbContext))]
-    [Migration("20250215004135_initial")]
-    partial class initial
+    [Migration("20250227173736_required")]
+    partial class required_mig
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -27,18 +27,14 @@ namespace Academia.Data.Postgres.Migrations
 
             modelBuilder.Entity("Academia.Domain.Models.Academia", b =>
                 {
-                    b.Property<Guid>("ID")
+                    b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uuid");
-
-                    b.Property<string>("AnoFundacao")
-                        .IsRequired()
-                        .HasColumnType("text");
 
                     b.Property<DateTime>("CreatedDate")
                         .HasColumnType("timestamp with time zone");
 
-                    b.Property<string>("Nome")
+                    b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("text");
 
@@ -51,25 +47,24 @@ namespace Academia.Data.Postgres.Migrations
                     b.Property<DateTime?>("UpdatedDate")
                         .HasColumnType("timestamp with time zone");
 
-                    b.HasKey("ID");
+                    b.HasKey("Id");
 
                     b.ToTable("Academia");
                 });
 
             modelBuilder.Entity("Academia.Domain.Models.Aparelho", b =>
                 {
-                    b.Property<Guid>("ID")
+                    b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<Guid?>("AcademiaId")
                         .HasColumnType("uuid");
 
                     b.Property<DateTime>("CreatedDate")
                         .HasColumnType("timestamp with time zone");
 
-                    b.Property<string>("DescricaoAparelho")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<string>("NomeAparelho")
+                    b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("text");
 
@@ -82,9 +77,25 @@ namespace Academia.Data.Postgres.Migrations
                     b.Property<DateTime?>("UpdatedDate")
                         .HasColumnType("timestamp with time zone");
 
-                    b.HasKey("ID");
+                    b.HasKey("Id");
+
+                    b.HasIndex("AcademiaId");
 
                     b.ToTable("Aparelho");
+                });
+
+            modelBuilder.Entity("Academia.Domain.Models.Aparelho", b =>
+                {
+                    b.HasOne("Academia.Domain.Models.Academia", "Academia")
+                        .WithMany("Aparelhos")
+                        .HasForeignKey("AcademiaId");
+
+                    b.Navigation("Academia");
+                });
+
+            modelBuilder.Entity("Academia.Domain.Models.Academia", b =>
+                {
+                    b.Navigation("Aparelhos");
                 });
 #pragma warning restore 612, 618
         }

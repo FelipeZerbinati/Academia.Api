@@ -6,13 +6,13 @@ using acdm = Academia.Domain.Models;
 
 namespace Academia.Application.Services;
 
-public class AcademiaService (IUnitOfWork unitOfWork) : IAcademiaService
+public class AcademiaService(IUnitOfWork unitOfWork) : IAcademiaService
 {
- 
 
-    public async Task<ResultData<bool>> AddAcademia(Domain.Models.Academia academia)
+
+    public async Task<ResultData<acdm.Academia>> AddAcademia(Domain.Models.Academia academia)
     {
-        var result = new ResultData<bool>();
+        var result = new ResultData<acdm.Academia>();
         try
         {
             if (academia == null)
@@ -21,10 +21,11 @@ public class AcademiaService (IUnitOfWork unitOfWork) : IAcademiaService
                 result.ErrorDescription = "Academia não pode ser nulo.";
                 return result;
             }
-            unitOfWork.AcademiaRepository.Insert(academia);
+            var id = unitOfWork.AcademiaRepository.Insert(academia);
+            academia.Id = id;
             await unitOfWork.CommitAsync();
             result.Success = true;
-            result.Data = true;
+            result.Data = academia;
         }
         catch (Exception ex)
         {
@@ -35,7 +36,7 @@ public class AcademiaService (IUnitOfWork unitOfWork) : IAcademiaService
         {
             if (!result.Success)
             {
-                result.Data = false;
+                result.Data = null;
             }
         }
         return result;
@@ -46,7 +47,7 @@ public class AcademiaService (IUnitOfWork unitOfWork) : IAcademiaService
         var result = new ResultData<bool>();
         try
         {
-            var academia = await unitOfWork.AcademiaRepository.GetAsync(false, null, a => a.ID == academiaId);
+            var academia = await unitOfWork.AcademiaRepository.GetAsync(false, null, a => a.Id == academiaId);
             unitOfWork.AcademiaRepository.Delete(academia);
             await unitOfWork.CommitAsync();
             result.Success = true;
@@ -73,7 +74,7 @@ public class AcademiaService (IUnitOfWork unitOfWork) : IAcademiaService
         var result = new ResultData<acdm.Academia>();
         try
         {
-            var academia = await unitOfWork.AcademiaRepository.GetAsync(false,null ,a => a.ID == id);
+            var academia = await unitOfWork.AcademiaRepository.GetAsync(false, null, a => a.Id == id);
             result.Success = true;
             result.Data = academia;
         }
@@ -93,20 +94,48 @@ public class AcademiaService (IUnitOfWork unitOfWork) : IAcademiaService
         return result;
     }
 
+    public async Task<ResultData<List<acdm.Academia>>> GetAcademias()
+    {
+        var result = new ResultData<List<acdm.Academia>>();
+        try
+        {
+            var academia = await unitOfWork.AcademiaRepository.GetAllAsync();
+            result.Success = true;
+            result.Data = academia;
+        }
+        catch (Exception ex)
+        {
+            result.ErrorDescription = $"Erro inesperado: {ex.Message}";
+            result.Success = false;
+        }
+
+        finally
+        {
+            if (!result.Success)
+            {
+                result.Data = new List<acdm.Academia>();
+            }
+        }
+        return result;
+    }
+
     public async Task<ResultData<bool>> UpdateAcademia(Guid id, Domain.Models.Academia updatedAcademia)
     {
         var result = new ResultData<bool>();
         try
         {
-            var academia = await unitOfWork.AcademiaRepository.CountAsync(a => a.ID.Equals(id));
-            if (academia == 0)
+
+            var academia = await unitOfWork.AcademiaRepository.GetAsync(false, null, a => a.Id == id);
+
+            if (academia == null)
             {
                 result.Success = false;
                 result.ErrorDescription = "Gym does not exists.";
                 return result;
             }
 
-            unitOfWork.AcademiaRepository.Update(updatedAcademia);
+            academia.Name = updatedAcademia.Name;
+            unitOfWork.AcademiaRepository.Update(academia);
             await unitOfWork.CommitAsync();
             result.Success = true;
             result.Data = true;

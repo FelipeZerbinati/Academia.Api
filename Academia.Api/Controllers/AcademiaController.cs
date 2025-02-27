@@ -13,7 +13,7 @@ public class AcademiaController : ControllerBase
     }
 
     [HttpGet("{id}")]
-    public async Task<ActionResult<acdm.Academia>> GetAcademiaById(Guid id)
+    public async Task<IActionResult> GetAcademiaById(Guid id)
     {
         var result = await _academiaService.GetAcademiaById(id);
         if (!result.Success)
@@ -23,8 +23,19 @@ public class AcademiaController : ControllerBase
         return Ok(result.Data);
     }
 
+    [HttpGet]
+    public async Task<IActionResult> GetAcademias()
+    {
+        var result = await _academiaService.GetAcademias();
+        if (!result.Success)
+        {
+            return NotFound();
+        }
+        return Ok(result.Data);
+    }
+
     [HttpPost]
-    public async Task<ActionResult<acdm.Academia>> AddAcademia([FromBody] acdm.Academia newAcademia)
+    public async Task<IActionResult> AddAcademia([FromBody] acdm.Academia newAcademia)
     {
         if (newAcademia == null)
         {
@@ -35,13 +46,13 @@ public class AcademiaController : ControllerBase
         {
             return BadRequest(result.ErrorDescription);
         }
-        return CreatedAtAction(nameof(GetAcademiaById), new { id = newAcademia.ID }, newAcademia);
+        return Ok(result.Data);
     }
 
     [HttpPut("{id}")]
     public async Task<IActionResult> UpdateAcademia(Guid id, [FromBody] acdm.Academia updatedAcademia)
     {
-        if (id != updatedAcademia.ID)
+        if (id != updatedAcademia.Id)
         {
             return BadRequest("Academia Id incompativel");
         }
@@ -50,7 +61,7 @@ public class AcademiaController : ControllerBase
         {
             return NotFound(result.ErrorDescription);
         }
-        return NoContent();
+        return Ok();
 
     }
 
@@ -62,6 +73,6 @@ public class AcademiaController : ControllerBase
         {
             return NotFound(result.ErrorDescription);
         }
-        return NoContent();
+        return Accepted();
     }
 }

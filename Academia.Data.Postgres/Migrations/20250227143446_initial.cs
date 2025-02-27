@@ -15,9 +15,8 @@ namespace Academia.Data.Postgres.Migrations
                 name: "Academia",
                 columns: table => new
                 {
-                    ID = table.Column<Guid>(type: "uuid", nullable: false),
-                    Nome = table.Column<string>(type: "text", nullable: false),
-                    AnoFundacao = table.Column<string>(type: "text", nullable: false),
+                    Id = table.Column<Guid>(type: "uuid", nullable: false),
+                    Name = table.Column<string>(type: "text", nullable: false),
                     CreatedDate = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
                     UpdatedDate = table.Column<DateTime>(type: "timestamp with time zone", nullable: true),
                     RemovedDate = table.Column<DateTime>(type: "timestamp with time zone", nullable: true),
@@ -25,16 +24,16 @@ namespace Academia.Data.Postgres.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Academia", x => x.ID);
+                    table.PrimaryKey("PK_Academia", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
                 name: "Aparelho",
                 columns: table => new
                 {
-                    ID = table.Column<Guid>(type: "uuid", nullable: false),
-                    NomeAparelho = table.Column<string>(type: "text", nullable: false),
-                    DescricaoAparelho = table.Column<string>(type: "text", nullable: false),
+                    Id = table.Column<Guid>(type: "uuid", nullable: false),
+                    Name = table.Column<string>(type: "text", nullable: false),
+                    AcademiaId = table.Column<Guid>(type: "uuid", nullable: false),
                     CreatedDate = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
                     UpdatedDate = table.Column<DateTime>(type: "timestamp with time zone", nullable: true),
                     RemovedDate = table.Column<DateTime>(type: "timestamp with time zone", nullable: true),
@@ -42,18 +41,29 @@ namespace Academia.Data.Postgres.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Aparelho", x => x.ID);
+                    table.PrimaryKey("PK_Aparelho", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_Aparelho_Academia_AcademiaId",
+                        column: x => x.AcademiaId,
+                        principalTable: "Academia",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
                 });
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Aparelho_AcademiaId",
+                table: "Aparelho",
+                column: "AcademiaId");
         }
 
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Academia");
+                name: "Aparelho");
 
             migrationBuilder.DropTable(
-                name: "Aparelho");
+                name: "Academia");
         }
     }
 }

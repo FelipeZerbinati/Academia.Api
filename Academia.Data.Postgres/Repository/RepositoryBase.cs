@@ -80,13 +80,13 @@ namespace Academia.Data.Postgres.Repository
         {
             entity.Create();
             _context.Set<K>().Add(entity);
-            return entity.ID;
+            return entity.Id;
         }
 
         public void Update(K entity)
         {
             entity.Update();
-            _context.Set<K>().Attach(entity);
+            _context.Set<K>().Update(entity);
         }
 
         public void Remove(K entity)

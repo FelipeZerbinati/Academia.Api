@@ -48,7 +48,7 @@ namespace Academia.Application.Services
             var result = new ResultData<bool>();
             try
             {
-                var aparelho = await unitOfWork.AparelhoRepository.GetAsync(false, null, a => a.ID == aparelhoId);
+                var aparelho = await unitOfWork.AparelhoRepository.GetAsync(false, null, a => a.Id == aparelhoId);
                 unitOfWork.AparelhoRepository.Delete(aparelho);
                 await unitOfWork.CommitAsync();
                 result.Success = true;
@@ -74,7 +74,7 @@ namespace Academia.Application.Services
             var result = new ResultData<Aparelho>();
             try
             {
-                var aparelho = await unitOfWork.AparelhoRepository.GetAsync(false, null, a => a.ID == id);
+                var aparelho = await unitOfWork.AparelhoRepository.GetAsync(false, null, a => a.Id == id);
                 result.Success = true;
                 result.Data = aparelho;
             }
@@ -94,12 +94,37 @@ namespace Academia.Application.Services
             return result;
         }
 
+        public async Task<ResultData<List<Aparelho>>> GetAparelhos()
+        {
+            var result = new ResultData<List<Aparelho>>();
+            try
+            {
+                var aparelho = await unitOfWork.AparelhoRepository.GetAllAsync();
+                result.Success = true;
+                result.Data = aparelho;
+            }
+            catch (Exception ex)
+            {
+                result.ErrorDescription = $"Erro inesperado: {ex.Message}";
+                result.Success = false;
+            }
+
+            finally
+            {
+                if (!result.Success)
+                {
+                    result.Data = new List<Aparelho>();
+                }
+            }
+            return result;
+        }
+
         public async Task<ResultData<bool>> UpdateAparelho(Guid id, Aparelho updatedAparelho)
         {
             var result = new ResultData<bool>();
             try
             {
-                var aparelho = await unitOfWork.AparelhoRepository.CountAsync(a => a.ID == id);
+                var aparelho = await unitOfWork.AparelhoRepository.CountAsync(a => a.Id == id);
                 if (aparelho == 0)
                 {
                     result.Success = false;

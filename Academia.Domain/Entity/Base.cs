@@ -3,7 +3,7 @@
     public class Base
     {
 
-        public Guid ID { get; set; }
+        public Guid Id { get; set; }
         public DateTime CreatedDate { get; set; }
         public DateTime? UpdatedDate { get; set; }
         public DateTime? RemovedDate { get; set; }
@@ -12,7 +12,6 @@
 
         public Base()
         {
-            ID = Guid.NewGuid();
             CreatedDate = DateTime.UtcNow;
             Removed = false;
         }

@@ -1,6 +1,8 @@
 ﻿using Academia.Domain.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
+using System.Reflection.Emit;
 using acdm = Academia.Domain.Models;
 namespace Academia.Data.Postgres.Context;
 
@@ -29,19 +31,5 @@ public class PostgresDbContext : DbContext
 
             optionsBuilder.UseNpgsql(connectionString);
         }
-    }
-
-    protected override void OnModelCreating(ModelBuilder modelBuilder)
-    {
-        modelBuilder.Entity<acdm.Academia>(entity =>
-        {
-        });
-
-        modelBuilder.Entity<Aparelho>(entity =>
-        {
-            entity.HasKey(a => a.ID);  // Define a chave primária
-            entity.Property(a => a.NomeAparelho).IsRequired();
-            entity.Property(a => a.DescricaoAparelho).IsRequired();
-        });
     }
 }

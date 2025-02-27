@@ -13,7 +13,7 @@ public class AparelhosController : ControllerBase
         _aparelhoService = aparelhoService;
     }
     [HttpGet("{id}")]
-    public async Task<ActionResult<Aparelho>> GetAparelhoById(Guid id)
+    public async Task<IActionResult> GetAparelhoById(Guid id)
     {
         var result = await _aparelhoService.GetAparelhoById(id);
         if (!result.Success)
@@ -23,25 +23,38 @@ public class AparelhosController : ControllerBase
         return Ok(result.Data);
     }
 
+    [HttpGet]
+    public async Task<IActionResult> GetAparelhos()
+    {
+        var result = await _aparelhoService.GetAparelhos();
+        if (!result.Success)
+        {
+            return NotFound();
+        }
+        return Ok(result.Data);
+    }
+
     [HttpPost]
-    public async Task<ActionResult<Aparelho>> AddAparelho([FromBody] Aparelho newAparelho)
+    public async Task<IActionResult> AddAparelho([FromBody] Aparelho newAparelho)
     {
         if (newAparelho == null)
         {
             return BadRequest("Aparelho data não pode ser nulo.");
         }
+
         var result = await _aparelhoService.AddAparelho(newAparelho);
+
         if (!result.Success)
         {
             return BadRequest(result.ErrorDescription);
         }
-        return CreatedAtAction(nameof(GetAparelhoById), new { id = newAparelho.ID }, newAparelho);
+        return Ok(result);
     }
 
     [HttpPut("{id}")]
     public async Task<IActionResult> UpdateAparelho(Guid id, [FromBody] Aparelho updatedAparelho)
     {
-        if (id != updatedAparelho.ID)
+        if (id != updatedAparelho.Id)
         {
             return BadRequest("Aparelho Id incompativel");
         }
@@ -50,7 +63,7 @@ public class AparelhosController : ControllerBase
         {
             return NotFound(result.ErrorDescription);
         }
-        return NoContent();
+        return Ok();
 
     }
 
@@ -62,6 +75,6 @@ public class AparelhosController : ControllerBase
         {
             return NotFound(result.ErrorDescription);
         }
-        return NoContent();
+        return Accepted();
     }
 }

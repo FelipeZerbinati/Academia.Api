@@ -70,8 +70,7 @@
               "RelativeToolTip": "Academia.Api\\Controllers\\AparelhosController.cs",
               "ViewState": "AQIAACMAAAAAAAAAAAAgwC8AAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T20:44:02.576Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-14T20:44:02.576Z"
             },
             {
               "$type": "Document",
@@ -83,8 +82,7 @@
               "RelativeToolTip": "Academia.Domain\\Models\\Aparelho.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T20:40:11.14Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-14T20:40:11.14Z"
             },
             {
               "$type": "Document",
@@ -96,8 +94,7 @@
               "RelativeToolTip": "Academia.Domain\\Models\\Academia.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T20:40:06.131Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-14T20:40:06.131Z"
             },
             {
               "$type": "Document",
@@ -109,8 +106,7 @@
               "RelativeToolTip": "Academia.Data\\Repository\\UnitOfWork.cs",
               "ViewState": "AQIAABEAAAAAAAAAAAAQwCMAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T21:06:42.934Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-14T21:06:42.934Z"
             },
             {
               "$type": "Document",
@@ -122,8 +118,7 @@
               "RelativeToolTip": "Academia.Domain\\Interfaces\\Service\\IAcademiaService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T20:42:57.351Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-14T20:42:57.351Z"
             },
             {
               "$type": "Document",
@@ -135,8 +130,7 @@
               "RelativeToolTip": "Academia.Domain\\Models\\AcademiaAparelho.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T20:40:08.548Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-14T20:40:08.548Z"
             },
             {
               "$type": "Document",
@@ -148,8 +142,7 @@
               "RelativeToolTip": "Academia.Domain\\Interfaces\\Service\\IAparelhoService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T20:43:00.897Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-14T20:43:00.897Z"
             },
             {
               "$type": "Document",
@@ -161,8 +154,7 @@
               "RelativeToolTip": "Academia.Data.Postgres\\Context\\PostgresDbContext.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAxwCEAAABGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T20:54:51.695Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-14T20:54:51.695Z"
             },
             {
               "$type": "Document",
@@ -187,8 +179,7 @@
               "RelativeToolTip": "AcademiaService\\Services\\AparelhoService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAG0AAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T20:43:55.993Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-14T20:43:55.993Z"
             },
             {
               "$type": "Document",

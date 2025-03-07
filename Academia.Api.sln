@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Academia.Api", "Academia.Api\Academia.Api.csproj", "{B28A356F-47B0-410A-B481-9537E4D7F698}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Academia.Api", "Academia.Api\Academia.Api.csproj", "{B28A356F-47B0-410A-B481-9537E4D7F698}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Academia.Domain", "Academia.Domain\Academia.Domain.csproj", "{F2C53C1F-22A7-43B1-A8B1-C83A2883E4F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Academia.Domain", "Academia.Domain\Academia.Domain.csproj", "{F2C53C1F-22A7-43B1-A8B1-C83A2883E4F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Academia.Application", "AcademiaService\Academia.Application.csproj", "{EFD27153-7684-47C5-BC28-FF5C0C4CF84D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Academia.Application", "AcademiaService\Academia.Application.csproj", "{EFD27153-7684-47C5-BC28-FF5C0C4CF84D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Academia.Data.Postgres", "Academia.Data.Postgres\Academia.Data.Postgres.csproj", "{A2321BEF-8129-4538-AE00-6E2EC362E991}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Academia.Data.Postgres", "Academia.Data.Postgres\Academia.Data.Postgres.csproj", "{A2321BEF-8129-4538-AE00-6E2EC362E991}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Academia.Data", "Academia.Data\Academia.Data.csproj", "{1ABBCF16-B7AB-430A-A555-B1E666686F1C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Academia.Data", "Academia.Data\Academia.Data.csproj", "{1ABBCF16-B7AB-430A-A555-B1E666686F1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Academia.Data.Rest", "Academia.Data.Rest\Academia.Data.Rest.csproj", "{EE45ADDB-32EA-4662-A125-BFF1E111262C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{1ABBCF16-B7AB-430A-A555-B1E666686F1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1ABBCF16-B7AB-430A-A555-B1E666686F1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1ABBCF16-B7AB-430A-A555-B1E666686F1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE45ADDB-32EA-4662-A125-BFF1E111262C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE45ADDB-32EA-4662-A125-BFF1E111262C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE45ADDB-32EA-4662-A125-BFF1E111262C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE45ADDB-32EA-4662-A125-BFF1E111262C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

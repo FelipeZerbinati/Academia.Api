@@ -76,10 +76,9 @@ namespace Academia.Data.Postgres.Repository
             return await _context.Set<K>().CountAsync(expression);
         }
 
-        public Guid Insert(K entity)
+        public async Task<Guid> InsertAsync(K entity)
         {
-            entity.Create();
-            _context.Set<K>().Add(entity);
+            await _context.Set<K>().AddAsync(entity);
             return entity.Id;
         }
 
@@ -98,6 +97,18 @@ namespace Academia.Data.Postgres.Repository
         public void Delete(K entity)
         {
             _context.Set<K>().Remove(entity);
+        }
+
+        public async Task<K?> GetByIdAsync(Guid id)
+        {
+            return await _context.Set<K>().FindAsync(id);
+        }
+
+        public Guid Insert(K entity)
+        {
+            entity.Create();
+            _context.Set<K>().Add(entity);
+            return entity.Id;
         }
     }
 }

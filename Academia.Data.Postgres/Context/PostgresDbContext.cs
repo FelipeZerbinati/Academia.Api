@@ -10,6 +10,8 @@ public class PostgresDbContext : DbContext
 {
     public DbSet<acdm.Academia> Academia { get; set; }
     public DbSet<Aparelho> Aparelho { get; set; }
+    public DbSet<Pessoa> Pessoa { get; set; }
+    public DbSet<Endereco> Endereco { get; set; }
     public PostgresDbContext(DbContextOptions<PostgresDbContext> options) : base(options) { }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

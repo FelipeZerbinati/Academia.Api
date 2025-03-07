@@ -8,6 +8,9 @@ namespace Academia.Domain.Interfaces.Repository
         IRepositoryBase<acdm.Academia> AcademiaRepository { get; }
 
         IRepositoryBase<Aparelho> AparelhoRepository { get; }
+
+        IRepositoryBase<Pessoa> PessoaRepository { get; }
+        IRepositoryBase<Endereco> EnderecoRepository { get; }
         Task<bool> CommitAsync();
     }
 }

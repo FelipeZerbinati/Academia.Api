@@ -46,7 +46,7 @@ namespace Academia.Data.Postgres.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Academia");
+                    b.ToTable("Academia", (string)null);
                 });
 
             modelBuilder.Entity("Academia.Domain.Models.Aparelho", b =>
@@ -78,7 +78,7 @@ namespace Academia.Data.Postgres.Migrations
 
                     b.HasIndex("AcademiaId");
 
-                    b.ToTable("Aparelho");
+                    b.ToTable("Aparelho", (string)null);
                 });
 
             modelBuilder.Entity("Academia.Domain.Models.Aparelho", b =>

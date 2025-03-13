@@ -61,7 +61,7 @@ public class AcademiaController : ControllerBase
         {
             return NotFound(result.ErrorDescription);
         }
-        return Ok();
+        return Ok(result.Data);
 
     }
 

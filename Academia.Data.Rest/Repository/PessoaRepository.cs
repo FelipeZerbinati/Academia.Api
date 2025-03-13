@@ -31,9 +31,9 @@ namespace Academia.Data.Rest.Repository
         {
             return await PostAsync<Pessoa>("", pessoa);
         }
-        public async Task<Pessoa> DeletePessoaAsync(Guid id)
+        public async Task<bool> DeletePessoaAsync(Guid id)
         {
-            return await DeleteAsync<Pessoa>($"{id}");
+            return await DeleteAsync($"{id}");
         }
     }
 }

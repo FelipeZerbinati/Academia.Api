@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "EifLXFP5d0AtJV1bvwrF2se37C2uyxm+x+nna1K8vNE=",
+  "Hash": "l7dmrW/vZb132ezpOW+e4Cg5zTvpcSn1FRk2JEDxMoo=",
   "Source": "Academia.Api",
   "BasePath": "_content/Academia.Api",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

@@ -119,9 +119,9 @@ namespace Academia.Application.Services
             return result;
         }
 
-        public async Task<ResultData<bool>> UpdateAparelho(Guid id, Aparelho updatedAparelho)
+        public async Task<ResultData<Aparelho>> UpdateAparelho(Guid id, Aparelho updatedAparelho)
         {
-            var result = new ResultData<bool>();
+            var result = new ResultData<Aparelho>();
             try
             {
                 var aparelho = await unitOfWork.AparelhoRepository.CountAsync(a => a.Id == id);
@@ -134,7 +134,7 @@ namespace Academia.Application.Services
                 unitOfWork.AparelhoRepository.Update(updatedAparelho);
                 await unitOfWork.CommitAsync();
                 result.Success = true;
-                result.Data = true;
+                result.Data = updatedAparelho;
             }
             catch (Exception ex)
             {
@@ -145,7 +145,7 @@ namespace Academia.Application.Services
             {
                 if (!result.Success)
                 {
-                    result.Data = false;
+                    result.Success = false;
                 }
             }
             return result;

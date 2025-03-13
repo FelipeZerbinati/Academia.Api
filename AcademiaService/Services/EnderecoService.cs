@@ -36,6 +36,6 @@ public class EnderecoService : IEnderecoService
     public async Task<bool> DeleteEndereco(Guid id)
     {
         var endereco = await _enderecoRepository.DeleteEndereco(id);
-        return endereco != null;
+        return endereco;
     }
 }

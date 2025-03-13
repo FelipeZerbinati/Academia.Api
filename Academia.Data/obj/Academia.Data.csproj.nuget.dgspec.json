@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\Academia.Data\\Academia.Data.csproj": {}
+    "C:\\Users\\Administrador\\source\\repos\\Academia.Api\\Academia.Data\\Academia.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\Academia.Data.Postgres\\Academia.Data.Postgres.csproj": {
+    "C:\\Users\\Administrador\\source\\repos\\Academia.Api\\Academia.Data.Postgres\\Academia.Data.Postgres.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\Academia.Data.Postgres\\Academia.Data.Postgres.csproj",
+        "projectUniqueName": "C:\\Users\\Administrador\\source\\repos\\Academia.Api\\Academia.Data.Postgres\\Academia.Data.Postgres.csproj",
         "projectName": "Academia.Data.Postgres",
-        "projectPath": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\Academia.Data.Postgres\\Academia.Data.Postgres.csproj",
-        "packagesPath": "C:\\Users\\fezer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\Academia.Data.Postgres\\obj\\",
+        "projectPath": "C:\\Users\\Administrador\\source\\repos\\Academia.Api\\Academia.Data.Postgres\\Academia.Data.Postgres.csproj",
+        "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Administrador\\source\\repos\\Academia.Api\\Academia.Data.Postgres\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\fezer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,15 +26,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\AcademiaService\\Academia.Application.csproj": {
-                "projectPath": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\AcademiaService\\Academia.Application.csproj"
+              "C:\\Users\\Administrador\\source\\repos\\Academia.Api\\AcademiaService\\Academia.Application.csproj": {
+                "projectPath": "C:\\Users\\Administrador\\source\\repos\\Academia.Api\\AcademiaService\\Academia.Application.csproj"
               }
             }
           }
@@ -48,7 +47,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -103,24 +103,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.103/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\Academia.Data\\Academia.Data.csproj": {
+    "C:\\Users\\Administrador\\source\\repos\\Academia.Api\\Academia.Data\\Academia.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\Academia.Data\\Academia.Data.csproj",
+        "projectUniqueName": "C:\\Users\\Administrador\\source\\repos\\Academia.Api\\Academia.Data\\Academia.Data.csproj",
         "projectName": "Academia.Data",
-        "projectPath": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\Academia.Data\\Academia.Data.csproj",
-        "packagesPath": "C:\\Users\\fezer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\Academia.Data\\obj\\",
+        "projectPath": "C:\\Users\\Administrador\\source\\repos\\Academia.Api\\Academia.Data\\Academia.Data.csproj",
+        "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Administrador\\source\\repos\\Academia.Api\\Academia.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\fezer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -129,18 +129,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\Academia.Data.Postgres\\Academia.Data.Postgres.csproj": {
-                "projectPath": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\Academia.Data.Postgres\\Academia.Data.Postgres.csproj"
+              "C:\\Users\\Administrador\\source\\repos\\Academia.Api\\Academia.Data.Postgres\\Academia.Data.Postgres.csproj": {
+                "projectPath": "C:\\Users\\Administrador\\source\\repos\\Academia.Api\\Academia.Data.Postgres\\Academia.Data.Postgres.csproj"
               },
-              "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\Academia.Domain\\Academia.Domain.csproj": {
-                "projectPath": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\Academia.Domain\\Academia.Domain.csproj"
+              "C:\\Users\\Administrador\\source\\repos\\Academia.Api\\Academia.Domain\\Academia.Domain.csproj": {
+                "projectPath": "C:\\Users\\Administrador\\source\\repos\\Academia.Api\\Academia.Domain\\Academia.Domain.csproj"
               }
             }
           }
@@ -154,7 +153,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -175,24 +175,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.103/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\Academia.Domain\\Academia.Domain.csproj": {
+    "C:\\Users\\Administrador\\source\\repos\\Academia.Api\\Academia.Domain\\Academia.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\Academia.Domain\\Academia.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Administrador\\source\\repos\\Academia.Api\\Academia.Domain\\Academia.Domain.csproj",
         "projectName": "Academia.Domain",
-        "projectPath": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\Academia.Domain\\Academia.Domain.csproj",
-        "packagesPath": "C:\\Users\\fezer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\Academia.Domain\\obj\\",
+        "projectPath": "C:\\Users\\Administrador\\source\\repos\\Academia.Api\\Academia.Domain\\Academia.Domain.csproj",
+        "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Administrador\\source\\repos\\Academia.Api\\Academia.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\fezer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -201,7 +201,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -219,7 +218,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -246,24 +246,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.103/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\AcademiaService\\Academia.Application.csproj": {
+    "C:\\Users\\Administrador\\source\\repos\\Academia.Api\\AcademiaService\\Academia.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\AcademiaService\\Academia.Application.csproj",
+        "projectUniqueName": "C:\\Users\\Administrador\\source\\repos\\Academia.Api\\AcademiaService\\Academia.Application.csproj",
         "projectName": "Academia.Application",
-        "projectPath": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\AcademiaService\\Academia.Application.csproj",
-        "packagesPath": "C:\\Users\\fezer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\AcademiaService\\obj\\",
+        "projectPath": "C:\\Users\\Administrador\\source\\repos\\Academia.Api\\AcademiaService\\Academia.Application.csproj",
+        "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Administrador\\source\\repos\\Academia.Api\\AcademiaService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\fezer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -272,15 +272,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\Academia.Domain\\Academia.Domain.csproj": {
-                "projectPath": "C:\\Users\\fezer\\OneDrive\\Ambiente de Trabalho\\Linguagem C\\Academia.Api\\Academia.Domain\\Academia.Domain.csproj"
+              "C:\\Users\\Administrador\\source\\repos\\Academia.Api\\Academia.Domain\\Academia.Domain.csproj": {
+                "projectPath": "C:\\Users\\Administrador\\source\\repos\\Academia.Api\\Academia.Domain\\Academia.Domain.csproj"
               }
             }
           }
@@ -294,7 +293,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -315,7 +315,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.103/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -119,9 +119,9 @@ public class AcademiaService(IUnitOfWork unitOfWork) : IAcademiaService
         return result;
     }
 
-    public async Task<ResultData<bool>> UpdateAcademia(Guid id, Domain.Models.Academia updatedAcademia)
+    public async Task<ResultData<acdm.Academia>> UpdateAcademia(Guid id, Domain.Models.Academia updatedAcademia)
     {
-        var result = new ResultData<bool>();
+        var result = new ResultData<acdm.Academia>();
         try
         {
 
@@ -138,7 +138,7 @@ public class AcademiaService(IUnitOfWork unitOfWork) : IAcademiaService
             unitOfWork.AcademiaRepository.Update(academia);
             await unitOfWork.CommitAsync();
             result.Success = true;
-            result.Data = true;
+            result.Data = academia;
         }
         catch (Exception ex)
         {
@@ -149,7 +149,7 @@ public class AcademiaService(IUnitOfWork unitOfWork) : IAcademiaService
         {
             if (!result.Success)
             {
-                result.Data = false;
+                result.Success= false;
             }
         }
 

@@ -13,6 +13,6 @@ namespace Academia.Domain.Interfaces.Rest
         Task<IEnumerable<Pessoa>> GetAllPessoas();
         Task<Pessoa> UpdatePessoa(Guid id, Pessoa pessoa);
         Task<Pessoa> CreatePessoa(Pessoa pessoa);
-        Task<Pessoa> DeletePessoaAsync(Guid id);
+        Task<bool> DeletePessoaAsync(Guid id);
     }
 }

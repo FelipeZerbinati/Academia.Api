@@ -13,6 +13,6 @@ namespace Academia.Domain.Interfaces.Rest
         Task<IEnumerable<Endereco>> GetAllEnderecos();
         Task<Endereco> CreateEnderecoAsync(Endereco endereco);
         Task<Endereco> UpdateEndereco(Guid id, Endereco endereco);
-        Task<Endereco> DeleteEndereco(Guid id);
+        Task<bool> DeleteEndereco(Guid id);
     }
 }

@@ -34,9 +34,9 @@ namespace Academia.Data.Rest.Repository
             return await PutAsync<Endereco>($"/{id}", endereco);
         }
 
-        public async Task<Endereco> DeleteEndereco(Guid id)
+        public async Task<bool> DeleteEndereco(Guid id)
         {
-            return await DeleteAsync<Endereco>($"/{id}");
+            return await DeleteAsync($"/{id}");
         }
     }
 }

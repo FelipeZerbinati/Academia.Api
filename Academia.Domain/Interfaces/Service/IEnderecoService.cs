@@ -12,7 +12,7 @@ namespace Academia.Domain.Interfaces.Service
         Task<IEnumerable<Endereco>> GetAllEnderecos();
         Task<Endereco> GetByIdAsync(Guid id);
         Task<Endereco> CreateEnderecoAsync(Endereco endereco);
-        Task<Endereco> UpdateEndereco(Endereco endereco);
+        Task<Endereco> UpdateEndereco(Guid id, Endereco endereco);
         Task<bool> DeleteEndereco(Guid id);
     }
 }

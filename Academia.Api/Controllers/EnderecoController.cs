@@ -45,7 +45,7 @@ namespace Academia.Api.Controllers
             if (endereco == null || endereco.Id != id)
                 return BadRequest("Dados inválidos.");
 
-            var enderecoAtualizado = await _enderecoService.UpdateEndereco(endereco);
+            var enderecoAtualizado = await _enderecoService.UpdateEndereco(endereco.Id, endereco);
             return Ok(enderecoAtualizado);
         }
 

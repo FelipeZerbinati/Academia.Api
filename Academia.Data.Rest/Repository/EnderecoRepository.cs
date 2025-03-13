@@ -1,11 +1,12 @@
 ﻿using Academia.Domain.Interfaces.Repository;
+using Academia.Domain.Interfaces.Rest;
 using Academia.Domain.Models;
 using Microsoft.EntityFrameworkCore.Query;
 using System.Linq.Expressions;
 
 namespace Academia.Data.Rest.Repository
 {
-    public class EnderecoRepository : BaseRepository
+    public class EnderecoRepository : BaseRepository, IEnderecoRepository
     {
         private const string LocationBaseUrl = "https://localhost:7213/api/Endereco";
         public EnderecoRepository() : base(LocationBaseUrl)

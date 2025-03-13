@@ -15,8 +15,6 @@ namespace Academia.Data.Repository
         //repositorys
         private IRepositoryBase<acdm.Academia>? _academiaRepository;
         private IRepositoryBase<Aparelho>? _aparelhoRepository;
-        private IRepositoryBase<Pessoa>? _pessoaRepository;
-        private IRepositoryBase<Endereco>? _enderecoRepository;
 
         public UnitOfWork(
 PostgresDbContext postgresContext)
@@ -31,8 +29,6 @@ PostgresDbContext postgresContext)
         public IRepositoryBase<acdm.Academia> AcademiaRepository => _academiaRepository ?? (_academiaRepository = new RepositoryBase<acdm.Academia>(_postgresContext));
 
         public IRepositoryBase<Aparelho> AparelhoRepository => _aparelhoRepository ?? (_aparelhoRepository = new RepositoryBase<Aparelho>(_postgresContext));
-        public IRepositoryBase<Pessoa> PessoaRepository => _pessoaRepository ?? (_pessoaRepository = new RepositoryBase<Pessoa>(_postgresContext));
-        public IRepositoryBase<Endereco> EnderecoRepository => _enderecoRepository ?? (_enderecoRepository = new RepositoryBase<Endereco>(_postgresContext));
                      
 
         public async Task<bool> CommitAsync() 

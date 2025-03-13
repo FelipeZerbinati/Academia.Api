@@ -1,6 +1,4 @@
-﻿
-
-using RestSharp;
+﻿using RestSharp;
 
 namespace Academia.Data.Rest.Repository
 {

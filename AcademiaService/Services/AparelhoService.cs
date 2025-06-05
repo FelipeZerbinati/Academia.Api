@@ -2,6 +2,7 @@
 using Academia.Domain.Interfaces.Repository;
 using Academia.Domain.Interfaces.Service;
 using Academia.Domain.Models;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -94,12 +95,18 @@ namespace Academia.Application.Services
             return result;
         }
 
-        public async Task<ResultData<List<Aparelho>>> GetAparelhos()
+        public async Task<ResultData<List<Aparelho>>> GetAparelhos(int page, int perPage)
         {
             var result = new ResultData<List<Aparelho>>();
             try
             {
-                var aparelho = await unitOfWork.AparelhoRepository.GetAllAsync();
+                var aparelho = await unitOfWork.AparelhoRepository.GetFilteredAsync(
+                tracking: false,
+                predicate: x => true,
+                orderBy: null,
+                page: page,
+                perPage: perPage
+                    );
                 result.Success = true;
                 result.Data = aparelho;
             }

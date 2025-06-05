@@ -23,10 +23,10 @@ public class AcademiaController : ControllerBase
         return Ok(result.Data);
     }
 
-    [HttpGet]
-    public async Task<IActionResult> GetAcademias()
+    [HttpGet("{page}/{perPage}")]
+    public async Task<IActionResult> GetAcademias(int page, int perPage)
     {
-        var result = await _academiaService.GetAcademias();
+        var result = await _academiaService.GetAcademias(page, perPage);
         if (!result.Success)
         {
             return NotFound();

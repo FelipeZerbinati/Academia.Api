@@ -23,10 +23,10 @@ public class AparelhosController : ControllerBase
         return Ok(result.Data);
     }
 
-    [HttpGet]
-    public async Task<IActionResult> GetAparelhos()
+    [HttpGet("{page}/{perPage}")]
+    public async Task<IActionResult> GetAparelhos(int page, int perPage)
     {
-        var result = await _aparelhoService.GetAparelhos();
+        var result = await _aparelhoService.GetAparelhos(page, perPage);
         if (!result.Success)
         {
             return NotFound();

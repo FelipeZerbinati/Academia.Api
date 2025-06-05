@@ -1,4 +1,5 @@
 using Academia.Application.Services;
+using Academia.Application.Services.Pessoa;
 using Academia.Data.Postgres.Context;
 using Academia.Data.Postgres.Repository;
 using Academia.Data.Repository;
@@ -7,9 +8,11 @@ using Academia.Domain.Interfaces.Postgres;
 using Academia.Domain.Interfaces.Repository;
 using Academia.Domain.Interfaces.Rest;
 using Academia.Domain.Interfaces.Service;
+using MassTransit;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
+
 
 builder.Services.AddControllers()
     .AddJsonOptions(options =>
@@ -31,6 +34,27 @@ builder.Services.AddTransient<IEnderecoRepository,  EnderecoRepository>();
 builder.Services.AddTransient<IEnderecoService, EnderecoService>();
 builder.Services.AddTransient<IPessoaRepository, PessoaRepository>();
 builder.Services.AddTransient<IPessoaService, PessoaService>();
+
+builder.Services.AddMassTransit(x =>
+{
+    x.SetKebabCaseEndpointNameFormatter();
+
+    x.AddConsumer<CreatePessoaConsumer>();
+    x.AddConsumer<UpdatePessoaConsumer>();
+    x.AddConsumer<DeletePessoaConsumer>();
+
+
+    x.UsingRabbitMq((context, cfg) =>
+    {
+        cfg.Host("rabbitmq://localhost:5672", h =>
+        {
+            h.Username("guest");
+            h.Password("guest");
+        });
+
+        cfg.ConfigureEndpoints(context);
+    });
+});
 
 var app = builder.Build();
 

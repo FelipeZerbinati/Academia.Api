@@ -94,12 +94,18 @@ public class AcademiaService(IUnitOfWork unitOfWork) : IAcademiaService
         return result;
     }
 
-    public async Task<ResultData<List<acdm.Academia>>> GetAcademias()
+    public async Task<ResultData<List<acdm.Academia>>> GetAcademias(int page, int perPage)
     {
         var result = new ResultData<List<acdm.Academia>>();
         try
         {
-            var academia = await unitOfWork.AcademiaRepository.GetAllAsync();
+            var academia = await unitOfWork.AcademiaRepository.GetFilteredAsync(
+                tracking: false,
+                predicate: x => true,
+                orderBy: null,
+                page: page,
+                perPage: perPage
+                );
             result.Success = true;
             result.Data = academia;
         }
